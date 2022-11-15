@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Area {
     public static void main(String[] args) {
+
         final double PI = Math.PI;
         Scanner sc = new Scanner(System.in);
         System.out.println("please input radius");
