@@ -4,6 +4,7 @@
     <list default="true" id="f606f5db-f3ef-4f7e-b764-99bc0bb20b40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DS/conditions/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS/conditions/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DS/conditions/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS/conditions/Master.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Owner/Desktop/DSA/DS_JAVA"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Master">
     <configuration name="Area" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DS.conditions.Area" />
