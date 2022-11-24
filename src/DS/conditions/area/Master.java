@@ -1,4 +1,6 @@
-package DS.conditions;
+package DS.conditions.area;
+
+import DS.conditions.area.Area;
 
 import java.util.Scanner;
 
