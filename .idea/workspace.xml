@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f606f5db-f3ef-4f7e-b764-99bc0bb20b40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DS/conditions/SubractProductSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DS/conditions/fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Factor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Largest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS/conditions/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS/conditions/area/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS/conditions/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS/conditions/area/Master.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Owner/Desktop/DSA/DS_JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubractProductSum">
-    <configuration name="DS.conditions.area.Area" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DS.conditions.area.Area" />
-      <module name="DS_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DS.conditions.area.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Largest">
     <configuration name="DS.conditions.fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DS.conditions.fibo" />
       <module name="DS_JAVA" />
@@ -68,12 +53,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Master" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DS.conditions.area.Master" />
+    <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DS.conditions.Factor" />
       <module name="DS_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DS.conditions.area.*" />
+          <option name="PATTERN" value="DS.conditions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Largest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DS.conditions.Largest" />
+      <module name="DS_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DS.conditions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DS.conditions.Sum" />
+      <module name="DS_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DS.conditions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Largest" />
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.Factor" />
         <item itemvalue="Application.SubractProductSum" />
         <item itemvalue="Application.DS.conditions.fibo" />
-        <item itemvalue="Application.DS.conditions.area.Area" />
       </list>
     </recent_temporary>
   </component>
