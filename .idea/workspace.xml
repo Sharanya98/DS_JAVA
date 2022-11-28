@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f606f5db-f3ef-4f7e-b764-99bc0bb20b40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DS/conditions/ElectricityBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Average.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DS/conditions/Distance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DS/conditions/Largest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS/conditions/Largest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +38,35 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Owner/Desktop/DSA/DS_JAVA&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ElectricityBill">
+  <component name="RunManager" selected="Application.Distance">
     <configuration name="Add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DS.conditions.Add" />
+      <module name="DS_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DS.conditions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DS.conditions.Average" />
+      <module name="DS_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DS.conditions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DS.conditions.Distance" />
       <module name="DS_JAVA" />
       <extension name="coverage">
         <pattern>
@@ -80,39 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Largest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DS.conditions.Largest" />
-      <module name="DS_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DS.conditions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DS.conditions.Sum" />
-      <module name="DS_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DS.conditions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Distance" />
+        <item itemvalue="Application.Average" />
         <item itemvalue="Application.ElectricityBill" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Add" />
-        <item itemvalue="Application.Largest" />
-        <item itemvalue="Application.Sum" />
       </list>
     </recent_temporary>
   </component>
