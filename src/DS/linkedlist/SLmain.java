@@ -16,6 +16,9 @@ public class SLmain {
         list.insertAfter(second,6);
         list.insertEnd(7);
         list.insertAtKey(2,5);
+        list.deletefirst();
+        //list.deleteLast();
+        //list.deletePosition(5);
 
         list.printlinkedlist();
 

@@ -23,7 +23,7 @@ class SinglyLinkedList {
     public void printlinkedlist(){
         Node n = head;
         while(n != null){
-            System.out.println(n.data + " ");
+            System.out.print(n.data + " "+"->");
             n=n.next;
         }
     }
@@ -85,5 +85,49 @@ class SinglyLinkedList {
         }
         n.next = newNode;
 
+    }
+
+    //Time complexity: O(1)
+    //Space complexity: O(1)
+    public void deletefirst(){
+        Node temp1 = head;
+
+        if(temp1!=null){
+            head = temp1.next;
+        }
+
+    }
+
+
+    //Time complexity: O(n)
+    //Space complexity: O(1) using constant space
+    public void deleteLast(){
+        Node temp2 = head;
+        Node prev = head;
+        while(temp2.next!=null){
+            prev=temp2;
+            temp2=temp2.next;
+        }
+        prev.next = null;
+    }
+
+    //Best Case : O(1) if given position is 1
+    //Average  & Worst Case : O(N)  if position given is size-1 then need to traverse till position not found.
+    //Space Complexity : O(1) no extra any space is required
+    public void deletePosition(int val){
+        Node temp3 = head;
+        Node prev3=head;
+        while(temp3.next!=null){
+            if( head.data==val){
+                head=temp3.next;
+            }
+            prev3 = temp3;
+            temp3 = temp3.next;
+
+            if(temp3.data==val){
+                //temp.next=null;
+                prev3.next=temp3.next;
+            }
+        }
     }
 }
