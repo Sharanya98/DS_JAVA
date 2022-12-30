@@ -1,4 +1,4 @@
-package DS.linkedlist;
+package DS.linkedlist.Singly;
 
 import java.util.LinkedList;
 
@@ -129,5 +129,18 @@ class SinglyLinkedList {
                 prev3.next=temp3.next;
             }
         }
+    }
+
+    //Time Complexity: O(N), As we are traversing the linked list only once.
+    //Auxiliary Space: O(N), Extra space is used in the recursion call stack.
+    public void countNode(){
+        Node temp = head;
+        int count=0;
+        while(temp!=null){
+            count++;
+            temp=temp.next;
+        }
+        System.out.println("Total Nodes: "+count);
+
     }
 }

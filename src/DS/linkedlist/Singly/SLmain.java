@@ -1,6 +1,6 @@
-package DS.linkedlist;
+package DS.linkedlist.Singly;
 
-import DS.linkedlist.SinglyLinkedList;
+import DS.linkedlist.Singly.SinglyLinkedList;
 
 public class SLmain {
     public static void main(String[] args) {
@@ -16,9 +16,10 @@ public class SLmain {
         list.insertAfter(second,6);
         list.insertEnd(7);
         list.insertAtKey(2,5);
-        list.deletefirst();
+        //list.deletefirst();
         //list.deleteLast();
         //list.deletePosition(5);
+        list.countNode();
 
         list.printlinkedlist();
 
